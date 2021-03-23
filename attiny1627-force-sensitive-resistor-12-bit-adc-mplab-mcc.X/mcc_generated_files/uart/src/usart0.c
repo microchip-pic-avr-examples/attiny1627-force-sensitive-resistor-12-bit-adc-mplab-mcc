@@ -96,8 +96,8 @@ void USART0_Initialize(void)
     // ABEIE disabled; DREIE disabled; LBME disabled; RS485 DISABLE; RXCIE disabled; RXSIE disabled; TXCIE disabled; 
     USART0.CTRLA = 0x0;
 	
-    // MPCM disabled; ODME disabled; RXEN enabled; RXMODE NORMAL; SFDEN disabled; TXEN enabled; 
-    USART0.CTRLB = 0xC0;
+    // MPCM disabled; ODME disabled; RXEN disabled; RXMODE NORMAL; SFDEN disabled; TXEN enabled; 
+    USART0.CTRLB = 0x40;
 	
     // CMODE Asynchronous Mode; UCPHA enabled; UDORD disabled; CHSIZE Character size: 8 bit; PMODE No Parity; SBMODE 1 stop bit; 
     USART0.CTRLC = 0x3;

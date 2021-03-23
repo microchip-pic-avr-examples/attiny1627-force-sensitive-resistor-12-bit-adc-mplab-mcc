@@ -49,6 +49,8 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 #define F_CPU 10000000
 #endif
 
+#include "ccp.h"
+
 void CLOCK_Initialize(void);
 
 #endif // CLOCK_H

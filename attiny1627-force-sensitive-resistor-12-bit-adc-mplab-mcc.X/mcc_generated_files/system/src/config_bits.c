@@ -50,7 +50,9 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 
 FUSES = 
 {
+  .APPEND = 0x0,
   .BODCFG = ACTIVE_DIS_gc | LVL_BODLEVEL0_gc | SAMPFREQ_1KHZ_gc | SLEEP_DIS_gc,
+  .BOOTEND = 0x0,
   .OSCCFG = FREQSEL_20MHZ_gc,
   .SYSCFG0 = CRCSRC_NOCRC_gc | RSTPINCFG_UPDI_gc,
   .SYSCFG1 = SUT_64MS_gc,

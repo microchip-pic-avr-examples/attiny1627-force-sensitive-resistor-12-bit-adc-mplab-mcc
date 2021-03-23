@@ -21,15 +21,15 @@ The ADC result will also be sent to a serial terminal and a 4x4 RGB Click board 
 
 Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graphical code generator are used throughout the application firmware development to provide easy and hassle-free user experience. Following are the tool versions used for this demo application:
 
-* [MPLAB® X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide)
-* [XC8 Compiler v2.31](https://www.microchip.com/mplab/compilers)
+* [MPLAB® X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide) or newer
+* [XC8 Compiler v2.31](https://www.microchip.com/mplab/compilers) or newer
    -   Compiler Optimization level '1' is needed for this code example
    -   It is selected here: 
-      ![Compiler Optimization](images/comp_opti.png)
-* [MPLAB® Code Configurator (MCC) v4.1.0](https://www.microchip.com/mplab/mplab-code-configurator)
-* [MPLAB® Code Configurator Library (CCL) v1.37.8](https://www.microchip.com/mplab/mplab-code-configurator)
-* [MCC Device Libraries 8-bit AVR MCUs 2.7.0](https://www.microchip.com/mplab/mplab-code-configurator)
-* [Microchip ATtiny1627 Device Support 2.5.116](https://packs.download.microchip.com/)
+   -   ![Compiler Optimization](images/comp_opti.png)
+* [MPLAB® Code Configurator (MCC) v4.1.0](https://www.microchip.com/mplab/mplab-code-configurator) or newer
+* [MPLAB® Melody Library v1.37.17](https://www.microchip.com/mplab/mplab-code-configurator) or newer
+* [MCC Device Libraries 8-bit AVR MCUs 2.7.0](https://www.microchip.com/mplab/mplab-code-configurator) or newer
+* [Microchip ATtiny1627 Device Support 2.5.116](https://packs.download.microchip.com/) or newer
 * MPLAB Data Visualizer in MPLAB X IDE
 
 
@@ -45,7 +45,6 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 ## Peripherals Configuration using MCC
 
 ### Added Peripherals
-
 ![Peripherals](images/peripherals.png)
 
 ### System Configuration: CLKCTRL
@@ -72,13 +71,13 @@ Microchip’s free MPLAB X IDE, compiler and MPLAB Code Configurator (MCC) graph
 
 ![Interrupt Manager](images/interrupt_manager.png)
 
-### PIN MANAGER Grid View
+### PINS Grid View
 
  <p align="">
         <img width=700px height=auto src="images/pin_grid.png">
    </p> 
 
-### System Configuration: PIN MANAGER
+### System Configuration: PINS
 
 <p align="">
         <img width=700px height=auto src="images/pin_manager.png">
@@ -134,7 +133,7 @@ illuminated and the brightness of LEDs are proportional to the applied force.
    - Note:  LEDs in blue colors will be illuminated. The number of LEDs illuminated and the brightness of the LEDs are proportional to the applied force.
 1. Increase the force on the FSR and observe an increased brightness level and increased number of LEDs illuminated.
 1. Open Data Visualizer or any other serial terminal on PC.
-1. Connect the Curiosity Virtual COM Port and configure baud rate to 115200. <p align="center">
+1. Connect the Curiosity Virtual COM Port and configure baud rate to 115200. <p align="left">
         <img width=600px height=auto src="images/DataVisualizer_1.jpg">
    </p>
 
@@ -147,28 +146,28 @@ illuminated and the brightness of LEDs are proportional to the applied force.
 
 
 
-1. Install and open the app Microchip Bluetooth Data. <p align="center">
+1. Install and open the app Microchip Bluetooth Data. <p align="left">
         <img width=100px height=auto src="images/Screenshot_APP_icon.png">
    </p>
 
 1. Click on **BLE UART** and select **BM70**.
 1. Click on **Scan**. If a pop-up message appears to turn on Bluetooth, click **Yes** and then click **Scan** again.
-1. Click the **Scan** tab to list the devices. <p align="center">
+1. Click the **Scan** tab to list the devices. <p align="left">
         <img width=150px height=auto src="images/Screenshot_SCAN.png">
     </p>
 1. Wait for the scan for 4-5 seconds, and then click **Cancel** to cancel the scan. 
-   - Note:  After canceling the scan, the Bluetooth module name, **tinyAVR2_demo**, should be listed on the screen. If the name is not listed, go to Step:2, *Click on **BLE UART** and select **BM70*** and repeat the scan <p align="center">
+   - Note:  After canceling the scan, the Bluetooth module name, **tiny2AVR-DEMO**, should be listed on the screen. If the name is not listed, go to Step:2, *Click on **BLE UART** and select **BM70*** and repeat the scan <p align="left">
         <img width=150px height=auto src="images/cancel_scan.jpg">
     </p> 
-1. Click on **tiny2AVR-DEMO**. <p align="center">
+1. Click on **tiny2AVR-DEMO**. <p align="left">
         <img width=150px height=auto src="images/BLE_name.png">
    </p> 
 1. Wait for connection.
-1. Click on **Transfer data to device**. <p align="center">
+1. Click on **Transfer data to device**. <p align="left">
         <img width=150px height=auto src="images/tx_to_device.png">
    </p> 
 
-1. Press the Force Sensitive Resistor on the Force Click board and observe the applied force in percentage in the app. <p align="center">
+1. Press the Force Sensitive Resistor on the Force Click board and observe the applied force in percentage in the app. <p align="left">
         <img width=150px height=auto src="images/data_in_app.png">
    </p> 
 

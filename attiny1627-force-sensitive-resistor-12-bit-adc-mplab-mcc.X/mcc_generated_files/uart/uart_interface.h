@@ -1,17 +1,17 @@
 /**
-  USART0 Generated Driver API Header File
+  uart_interface Generated Driver API Header File
 
   @Company
     Microchip Technology Inc.
 
   @File Name
-    usart0_interface.h
+    uart_interface.h
 
   @Summary
-    This is the generated driver interface header file for the USART0 driver.
+    This is the generated driver interface header file for the uart_interface driver.
 
   @Description
-    This file provides common enumerations for USART0 driver.
+    This file provides common enumerations for uart_interface driver.
     Generation Information :
         Product Revision  :   - 
         Device            :  
@@ -65,10 +65,10 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 #include <xc.h>
     
 /**
-  UART_INTERFACE
+  uart_interface
 
   @Description
-    Structure containing the function pointers of USART0 driver.
+    Structure containing the function pointers of uart_interface driver.
  */
 struct UART_INTERFACE
 {   

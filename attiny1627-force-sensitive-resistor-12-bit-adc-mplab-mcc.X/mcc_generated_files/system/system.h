@@ -50,14 +50,14 @@ extern "C" {
 #endif
 
 #include "../system/utils/compiler.h"
-#include "../uart/usart0.h"
-#include "../system/clock.h"
-#include "../uart/usart1.h"
-#include "../adc/adc0.h"
-#include "../system/interrupt.h"
-#include "../vref/vref.h"
-#include "../rn487x/rn487x.h"
 #include "../system/pins.h"
+#include "../adc/adc0.h"
+#include "../system/clock.h"
+#include "../system/interrupt.h"
+#include "../rn487x/rn487x.h"
+#include "../uart/usart0.h"
+#include "../uart/usart1.h"
+#include "../vref/vref.h"
 /**
  * Initializes MCU, drivers and middleware in the project
 **/

@@ -51,13 +51,13 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 
 void SYSTEM_Initialize(void)
 {
-    USART0_Initialize();
-    CLOCK_Initialize();
-    USART1_Initialize();
-    ADC0_Initialize();
-    CPUINT_Initialize();
-    VREF_Initialize();
-    RN487X_Initialize();
     PIN_MANAGER_Initialize();
+    ADC0_Initialize();
+    CLOCK_Initialize();
+    CPUINT_Initialize();
+    RN487X_Initialize();
+    USART0_Initialize();
+    USART1_Initialize();
+    VREF_Initialize();
 }
 

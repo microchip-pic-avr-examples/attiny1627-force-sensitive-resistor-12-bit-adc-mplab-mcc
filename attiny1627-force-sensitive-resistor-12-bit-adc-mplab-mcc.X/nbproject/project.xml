@@ -4,7 +4,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>attiny1627-force-sensitive-resistor-12-bit-adc-mplab-mcc</name>
-            <creation-uuid>f81b636b-b58b-4504-9552-254c616f9777</creation-uuid>
+            <creation-uuid>0d0a87e2-e325-4ef2-8b3a-dbb22d28fe3b</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>

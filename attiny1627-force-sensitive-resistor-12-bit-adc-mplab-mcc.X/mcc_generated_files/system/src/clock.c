@@ -43,7 +43,6 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 
 
 #include <xc.h>
-#include "../ccp.h"
 #include "../clock.h"
 
 void CLOCK_Initialize(void)
